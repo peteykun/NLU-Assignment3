@@ -29,7 +29,7 @@ embedding_dim = 200 + 300
 # In[4]:
 
 embeddings_index = {}
-f = open('/home/soham/DL-NLP/Assignment 2/glove.6B.300d.txt')
+f = open('/home1/e1-246-28/NLU-Assignment3/glove.6B.300d.txt')
 for line in f:
     values = line.split()
     word = values[0]
