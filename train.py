@@ -137,7 +137,7 @@ y_test2 = np.array([to_categorical(y, 3) for y in y_test])
 
 # In[22]:
 
-model.fit(X_train, y_train2, epochs=10, batch_size=128, validation_data=(X_valid, y_valid2), callbacks=[mcp])
+model.fit(X_train, y_train2, epochs=30, batch_size=128, validation_data=(X_valid, y_valid2), callbacks=[mcp])
 
 
 # (total of 30)
